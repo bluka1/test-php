@@ -34,5 +34,11 @@
         "parnost": "neparan",
         "suma": 10,
         "znamenke": 2
+    },
+    {
+        "broj": 56,
+        "parnost": "paran",
+        "suma": 11,
+        "znamenke": 2
     }
 ]
