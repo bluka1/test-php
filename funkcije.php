@@ -1,8 +1,8 @@
 <?php
 function cijeliBroj($broj)
 {
-    if (is_numeric($broj)) {
-        return floor($broj);
+    if (ctype_digit($broj)) {
+        return $broj;
     } else {
         return "Nije broj";
     }
