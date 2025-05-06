@@ -30,8 +30,8 @@ Potrebno je izraditi jednostavnu PHP aplikaciju koja omogućuje unos cijelog bro
    - Tablica sadrži sljedeće stupce:
      - **Broj**
      - **Par/Nepar**
-     - **Suma cifara**
-     - **Broj cifara**
+     - **Suma znamenki**
+     - **Broj znamenki**
 
 ---
 
