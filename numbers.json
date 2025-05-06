@@ -1,8 +1,50 @@
 [
   {
-      "broj": 7,
-      "parnost": "neparan",
-      "suma": 7,
-      "znamenke": 1
+    "broj": 7,
+    "parnost": "neparan",
+    "suma": 7,
+    "znamenke": 1
+  },
+  {
+    "broj": "1",
+    "parnost": "neparan",
+    "suma": 1,
+    "znamenke": 1
+  },
+  {
+    "broj": "5",
+    "parnost": "neparan",
+    "suma": 5,
+    "znamenke": 1
+  },
+  {
+    "broj": "55",
+    "parnost": "neparan",
+    "suma": 10,
+    "znamenke": 2
+  },
+  {
+    "broj": "12",
+    "parnost": "paran",
+    "suma": 3,
+    "znamenke": 2
+  },
+  {
+    "broj": "123",
+    "parnost": "neparan",
+    "suma": 6,
+    "znamenke": 3
+  },
+  {
+    "broj": "1",
+    "parnost": "neparan",
+    "suma": 1,
+    "znamenke": 1
+  },
+  {
+    "broj": "123",
+    "parnost": "neparan",
+    "suma": 6,
+    "znamenke": 3
   }
 ]
