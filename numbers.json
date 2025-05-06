@@ -1,8 +1,38 @@
 [
-  {
-      "broj": 7,
-      "parnost": "neparan",
-      "suma": 7,
-      "znamenke": 1
-  }
+    {
+        "broj": "52",
+        "parnost": "Paran",
+        "suma": 7,
+        "znamenke": 2
+    },
+    {
+        "broj": "13",
+        "parnost": "Neparan",
+        "suma": 4,
+        "znamenke": 2
+    },
+    {
+        "broj": "24",
+        "parnost": "Paran",
+        "suma": 6,
+        "znamenke": 2
+    },
+    {
+        "broj": "11234",
+        "parnost": "Paran",
+        "suma": "Nije niz",
+        "znamenke": 5
+    },
+    {
+        "broj": "123456",
+        "parnost": "Paran",
+        "suma": "Nije niz",
+        "znamenke": 6
+    },
+    {
+        "broj": "251124",
+        "parnost": "Paran",
+        "suma": 15,
+        "znamenke": 6
+    }
 ]
