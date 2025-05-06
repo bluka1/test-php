@@ -1,8 +1,14 @@
 [
-  {
-      "broj": 7,
-      "parnost": "neparan",
-      "suma": 7,
-      "znamenke": 1
-  }
+    {
+        "broj": 7,
+        "parnost": "neparan",
+        "suma": 7,
+        "znamenke": 1
+    },
+    {
+        "broj": 23,
+        "parnost": "neparan",
+        "suma": 5,
+        "znamenke": 2
+    }
 ]
