@@ -1,8 +1,1 @@
-[
-  {
-      "broj": 7,
-      "parnost": "neparan",
-      "suma": 7,
-      "znamenke": 1
-  }
-]
+[{"broj":7,"parnost":"neparan","suma":7,"znamenke":1},{"broj":"12","parnost":"Broj je paran: ","suma":3,"znamenke":2},{"broj":"12","parnost":"Broj je paran: ","suma":3,"znamenke":2},{"broj":"12","parnost":"Broj je paran: ","suma":3,"znamenke":2},{"broj":"12","parnost":"Broj je paran: ","suma":3,"znamenke":2},{"broj":"5423","parnost":"Broj je neparan: ","suma":14,"znamenke":4},{"broj":"5555","parnost":"neparan ","suma":20,"znamenke":4},{"broj":"555","parnost":"neparan ","suma":15,"znamenke":3},{"broj":"85964755444","parnost":"paran ","suma":61,"znamenke":11}]
