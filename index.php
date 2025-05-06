@@ -18,13 +18,44 @@
   
 </head>
 <body>
+<?php 
+require('funkcije.php');
+define('FILE_PATH', 'numbers.json');
+?>
+
   <main class="main">
-    <!-- ovdje dodajte formu i tablicu -->
+    <form action="obrada.php" method="POST">
+      <label>Upišite broj:
+        <br>
+        <input type="text" name="brojevi" required>
+      </label>
+      <br><br>
+      <input type="submit" value="Pošalji">
+    </form>
 
-    <!-- forma -->
+    <table border="1">
+      <tr>
+        <th>Broj</th>
+        <th>Par/Nepar</th>
+        <th>Suma znamenki</th>
+        <th>Broj znamenki</th>
+      </tr>
+
+    <?php 
+    $containsJson = file_get_contents(FILE_PATH);
+    $jsonBrojevi = json_decode($containsJson);
+    foreach($jsonBrojevi as $brojevi) {
+      echo "<tr>";
+      foreach($brojevi as $vrijednosti) {
+        echo "<td>" . $vrijednosti . "</td>";
+      }
+      echo "</tr>";
+    }
 
 
-    <!-- tablica -->
+    ?>
+
+    </table>
 
 
   </main>
