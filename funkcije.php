@@ -1,12 +1,16 @@
 <?php
 function cijeliBroj($broj)
 {
-    if (ctype_digit($broj)) {
+    if (is_numeric($broj) && (int) $broj == $broj) {
         return $broj;
     } else {
-        return "Nije broj";
+        return "Nije cijeli broj";
     }
 }
+
+
+
+
 function parIliNepar($broj)
 {
     if (is_numeric($broj)) {
