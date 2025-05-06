@@ -1,8 +1,1 @@
-[
-  {
-      "broj": 7,
-      "parnost": "neparan",
-      "suma": 7,
-      "znamenke": 1
-  }
-]
+[{"broj":7,"parnost":"neparan","suma":7,"znamenke":1},{"broj":"10","parnost":"paran","suma":1,"znamenke":2},{"broj":"22","parnost":"paran","suma":4,"znamenke":2},{"broj":"233","parnost":"neparan","suma":8,"znamenke":3},{"broj":"5634","parnost":"paran","suma":18,"znamenke":4},{"broj":"644","parnost":"paran","suma":14,"znamenke":3},{"broj":"448","parnost":"paran","suma":16,"znamenke":3},{"broj":"25487","parnost":"neparan","suma":26,"znamenke":5}]
