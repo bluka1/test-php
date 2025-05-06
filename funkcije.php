@@ -1,13 +1,12 @@
 <?php
 function cijeliBroj($broj)
 {
-    if (is_numeric($broj) && (int) $broj == $broj) {
-        return $broj;
+    if (is_numeric($broj)) {
+        return floor($broj);
     } else {
-        return "Nije cijeli broj";
+        return "Nije broj";
     }
 }
-
 
 
 
@@ -27,11 +26,9 @@ function parIliNepar($broj)
 function zbrojiSveZnamenke($broj)
 {
     if (is_numeric($broj)) {
-        if (is_array($broj)) {
-            return array_sum($broj);
-        } else {
-            return "Nije niz";
-        }
+        // Uklanjamo minus i decimalnu točku
+        $clanovi = str_split(str_replace(['-', '.'], '', (string) $broj));
+        return array_sum($clanovi);
     } else {
         return "Nije broj";
     }

@@ -5,7 +5,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && !empty($_POST['broj'])) {
 
     // provjeravam je li 'broj' cijeli broj (ctype_digit provjerava samo pozitivne cijele brojeve)
     // ako nije, onda doviđenja
-    if (is_numeric($_POST['broj']) && (int) $_POST['broj'] == $_POST['broj']) {
+    if (!ctype_digit($_POST['broj'])) {
         die('Uneseni broj nije cijeli broj.');
     }
 

@@ -22,5 +22,17 @@
         "parnost": "Paran",
         "suma": "Nije niz",
         "znamenke": 5
+    },
+    {
+        "broj": "123456",
+        "parnost": "Paran",
+        "suma": "Nije niz",
+        "znamenke": 6
+    },
+    {
+        "broj": "251124",
+        "parnost": "Paran",
+        "suma": 15,
+        "znamenke": 6
     }
 ]
