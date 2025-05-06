@@ -1,8 +1,14 @@
 [
-  {
-      "broj": 7,
-      "parnost": "neparan",
-      "suma": 7,
-      "znamenke": 1
-  }
+    {
+        "broj": 82,
+        "par_nepar": "paran",
+        "suma_znamenki": 10,
+        "broj_znamenki": 2
+    },
+    {
+        "broj": 81,
+        "par_nepar": "neparan",
+        "suma_znamenki": 9,
+        "broj_znamenki": 2
+    }
 ]
